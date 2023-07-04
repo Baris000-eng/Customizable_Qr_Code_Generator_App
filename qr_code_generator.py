@@ -69,6 +69,5 @@ while True:
     except Exception as e:
         print(f"Error generating QR code: {e}")
 
-    # Add a blank line to separate multiple QR codes generated in a single session
-    print()  # Prints an empty line for better readability
+    print()  
 
